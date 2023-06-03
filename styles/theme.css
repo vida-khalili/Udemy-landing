@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "udemy sans";
+  src: url(../fonts/Udemy-Sans-Regular-v1.woff2);
+}
+
+@font-face {
+  font-family: "udemy sans";
+  src: url(../fonts/Udemy-Sans-Bold-v1.woff2);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: SuisseWorks;
+  src: url(../fonts/SuisseWorks-Bold-v1.woff2);
+}
+
+:root {
+  --black: #1c1d1f;
+  --primary: #5624d0;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "udemy sans";
+  margin: 0;
+  color: #1c1d1f;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+a:hover {
+  color: var(--primary);
+}
+a:hover svg {
+  fill: var(--primary);
+}
+
+.black-btn {
+  color: white;
+  background-color: var(--black);
+  border: 1px solid white;
+  padding: 10px;
+  transition: background-color 200ms ease-in-out;
+}
+.white-btn {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  transition: background-color 200ms ease-in-out;
+}
+
+.black-btn:hover {
+  cursor: pointer;
+  background-color: var(--black);
+}
+
+.white-btn:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.previous-btn {
+  position: absolute;
+  left: 10px;
+  z-index: 30;
+  background-color: var(--black);
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.next-btn {
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  z-index: 30;
+  background-color: var(--black);
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1340px;
+  margin: 0 auto;
+}
+
+.frame {
+  max-width: 1340px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.banner image {
+  max-width: 100%;
+}
+
+.banner-description {
+  background-color: white;
+  padding: 24px;
+  width: 440px;
+  height: auto;
+  position: absolute;
+  left: 70px;
+  top: 64px;
+}
+div.banner-description-buttons {
+  margin: 32px 0 16px 0;
+}
+
+.banner-description-buttons button:nth-child(2) {
+  margin-left: 16px;
+}
