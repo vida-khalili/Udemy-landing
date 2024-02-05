@@ -1,821 +1,635 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./styles/theme.css" />
-    <link rel="stylesheet" href="./styles/navbar.css" />
-    <link rel="stylesheet" href="./styles/main.css" />
-    <link rel="stylesheet" href="./styles/footer.css" />
-    <title>Udemy</title>
-  </head>
-  <body>
-    <div class="navbar">
-      <div class="logo">
-        <img src="./images/logo-udemy.svg" alt="udemy logo" width="100%" />
-      </div>
-      <div class="categories-popup">
-        <a href="#">Categories</a>
-        <div class="popup-box">
-          <div class="transparent-bar"></div>
-          <div class="popup-box-content">
-            <ul>
-              <li>
-                <a class="popup-box-content-link" href=""
-                  ><p>Development</p>
-                  <svg
-                    fill="#1c1d1f"
-                    version="1.1"
-                    baseProfile="tiny"
-                    id="Layer_1"
-                    xmlns:x="&amp;ns_extend;"
-                    xmlns:i="&amp;ns_ai;"
-                    xmlns:graph="&amp;ns_graphs;"
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-                    viewBox="0 0 42 42"
-                    xml:space="preserve"
-                    stroke="#ffffff"
-                  >
-                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                    <g
-                      id="SVGRepo_tracerCarrier"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></g>
-                    <g id="SVGRepo_iconCarrier">
-                      <polygon
-                        fill-rule="evenodd"
-                        points="13.933,1 34,21.068 14.431,40.637 9.498,35.704 24.136,21.068 9,5.933 "
-                      ></polygon>
-                    </g></svg
-                ></a>
-              </li>
-              <li>
-                <a class="popup-box-content-link" href=""
-                  ><p>Business</p>
-                  <svg
-                    fill="#1c1d1f"
-                    version="1.1"
-                    baseProfile="tiny"
-                    id="Layer_1"
-                    xmlns:x="&amp;ns_extend;"
-                    xmlns:i="&amp;ns_ai;"
-                    xmlns:graph="&amp;ns_graphs;"
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-                    viewBox="0 0 42 42"
-                    xml:space="preserve"
-                    stroke="#ffffff"
-                  >
-                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                    <g
-                      id="SVGRepo_tracerCarrier"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></g>
-                    <g id="SVGRepo_iconCarrier">
-                      <polygon
-                        fill-rule="evenodd"
-                        points="13.933,1 34,21.068 14.431,40.637 9.498,35.704 24.136,21.068 9,5.933 "
-                      ></polygon>
-                    </g></svg
-                ></a>
-              </li>
-              <li>
-                <a class="popup-box-content-link" href=""
-                  ><p>Finance & accounting</p>
-                  <svg
-                    fill="#1c1d1f"
-                    version="1.1"
-                    baseProfile="tiny"
-                    id="Layer_1"
-                    xmlns:x="&amp;ns_extend;"
-                    xmlns:i="&amp;ns_ai;"
-                    xmlns:graph="&amp;ns_graphs;"
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-                    viewBox="0 0 42 42"
-                    xml:space="preserve"
-                    stroke="#ffffff"
-                  >
-                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                    <g
-                      id="SVGRepo_tracerCarrier"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></g>
-                    <g id="SVGRepo_iconCarrier">
-                      <polygon
-                        fill-rule="evenodd"
-                        points="13.933,1 34,21.068 14.431,40.637 9.498,35.704 24.136,21.068 9,5.933 "
-                      ></polygon>
-                    </g></svg
-                ></a>
-              </li>
-              <li>
-                <a class="popup-box-content-link" href=""
-                  ><p>It & software</p>
-                  <svg
-                    fill="#1c1d1f"
-                    version="1.1"
-                    baseProfile="tiny"
-                    id="Layer_1"
-                    xmlns:x="&amp;ns_extend;"
-                    xmlns:i="&amp;ns_ai;"
-                    xmlns:graph="&amp;ns_graphs;"
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-                    viewBox="0 0 42 42"
-                    xml:space="preserve"
-                    stroke="#ffffff"
-                  >
-                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                    <g
-                      id="SVGRepo_tracerCarrier"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></g>
-                    <g id="SVGRepo_iconCarrier">
-                      <polygon
-                        fill-rule="evenodd"
-                        points="13.933,1 34,21.068 14.431,40.637 9.498,35.704 24.136,21.068 9,5.933 "
-                      ></polygon>
-                    </g></svg
-                ></a>
-              </li>
-            </ul>
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="./styles/theme.css" />
+  <link rel="stylesheet" href="./styles/navbar.css" />
+  <link rel="stylesheet" href="./styles/main.css" />
+  <link rel="stylesheet" href="./styles/footer.css" />
+  <title>Udemy</title>
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="logo">
+      <img src="./images/logo-udemy.svg" alt="udemy logo" width="100%" />
+    </div>
+    <div class="categories-popup">
+      <a href="#">Categories</a>
+      <div class="popup-box">
+        <div class="transparent-bar"></div>
+        <div class="popup-box-content">
+          <ul>
+            <li>
+              <a class="popup-box-content-link" href="">
+                <p>Development</p>
+                <svg fill="#1c1d1f" version="1.1" baseProfile="tiny" id="Layer_1" xmlns:x="&amp;ns_extend;"
+                  xmlns:i="&amp;ns_ai;" xmlns:graph="&amp;ns_graphs;" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+                  viewBox="0 0 42 42" xml:space="preserve" stroke="#ffffff">
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <polygon fill-rule="evenodd"
+                      points="13.933,1 34,21.068 14.431,40.637 9.498,35.704 24.136,21.068 9,5.933 "></polygon>
+                  </g>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="popup-box-content-link" href="">
+                <p>Business</p>
+                <svg fill="#1c1d1f" version="1.1" baseProfile="tiny" id="Layer_1" xmlns:x="&amp;ns_extend;"
+                  xmlns:i="&amp;ns_ai;" xmlns:graph="&amp;ns_graphs;" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+                  viewBox="0 0 42 42" xml:space="preserve" stroke="#ffffff">
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <polygon fill-rule="evenodd"
+                      points="13.933,1 34,21.068 14.431,40.637 9.498,35.704 24.136,21.068 9,5.933 "></polygon>
+                  </g>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="popup-box-content-link" href="">
+                <p>Finance & accounting</p>
+                <svg fill="#1c1d1f" version="1.1" baseProfile="tiny" id="Layer_1" xmlns:x="&amp;ns_extend;"
+                  xmlns:i="&amp;ns_ai;" xmlns:graph="&amp;ns_graphs;" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+                  viewBox="0 0 42 42" xml:space="preserve" stroke="#ffffff">
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <polygon fill-rule="evenodd"
+                      points="13.933,1 34,21.068 14.431,40.637 9.498,35.704 24.136,21.068 9,5.933 "></polygon>
+                  </g>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="popup-box-content-link" href="">
+                <p>It & software</p>
+                <svg fill="#1c1d1f" version="1.1" baseProfile="tiny" id="Layer_1" xmlns:x="&amp;ns_extend;"
+                  xmlns:i="&amp;ns_ai;" xmlns:graph="&amp;ns_graphs;" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+                  viewBox="0 0 42 42" xml:space="preserve" stroke="#ffffff">
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <polygon fill-rule="evenodd"
+                      points="13.933,1 34,21.068 14.431,40.637 9.498,35.704 24.136,21.068 9,5.933 "></polygon>
+                  </g>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
-      </div>
-      <div class="search-box">
-        <form action="">
-          <button>
-            <img src="./images/search.svg" />
-          </button>
-          <input type="text" placeholder="Search for anything" />
-        </form>
-      </div>
-      <div class="business-popover">
-        <a href="#">Udemy Business</a>
-        <div class="popup-box">
-          <div class="transparent-bar"></div>
-          <div class="popup-box-content">
-            <p>
-              Get your team access to over 22,000 top Udemy courses, anytime,
-              anywhere.
-            </p>
-            <button class="black-btn">Try Udemy Business</button>
-          </div>
-        </div>
-      </div>
-      <div class="teach-popover">
-        <a href="#">Teach on Udemy</a>
-        <div class="popup-box">
-          <div class="transparent-bar"></div>
-          <div class="popup-box-content">
-            <p>
-              Turn what you know into an opportunity and reach millions around
-              the world.
-            </p>
-            <button class="black-btn">Learn More</button>
-          </div>
-        </div>
-      </div>
-      <div class="buy-cart-popover">
-        <svg
-          width="800px"
-          height="800px"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
-            d="M2 2C1.44772 2 1 2.44772 1 3C1 3.55228 1.44772 4 2 4H2.47241C2.92336 4 3.31852 4.30182 3.43717 4.73688L3.85342 6.26312L6 14.1339V16C6 16.6935 6.23533 17.3321 6.63048 17.8402C6.23824 18.2816 6 18.863 6 19.5C6 20.8807 7.11929 22 8.5 22C9.88071 22 11 20.8807 11 19.5C11 19.3288 10.9828 19.1616 10.95 19H14.05C14.0172 19.1616 14 19.3288 14 19.5C14 20.8807 15.1193 22 16.5 22C17.8807 22 19 20.8807 19 19.5C19 19.1715 18.9366 18.8578 18.8215 18.5704C18.934 18.4086 19 18.212 19 18C19 17.4477 18.5523 17 18 17H16.5H9C8.44772 17 8 16.5523 8 16V15H18.236C19.1381 15 19.9285 14.3962 20.1657 13.5258L21.8007 7.52583C22.1473 6.25364 21.1896 5 19.871 5H5.58198L5.3667 4.21065C5.01074 2.90547 3.82526 2 2.47241 2H2ZM16.5 19C16.2239 19 16 19.2239 16 19.5C16 19.7761 16.2239 20 16.5 20C16.7761 20 17 19.7761 17 19.5C17 19.2239 16.7761 19 16.5 19ZM18.236 13H7.7638L6.12743 7H19.871L18.236 13ZM8.5 19C8.22386 19 8 19.2239 8 19.5C8 19.7761 8.22386 20 8.5 20C8.77614 20 9 19.7761 9 19.5C9 19.2239 8.77614 19 8.5 19Z"
-            fill="#000000"
-          />
-        </svg>
-        <div class="popup-box">
-          <div class="transparent-bar"></div>
-          <div class="popup-box-content">
-            <div>Your cart is empty</div>
-            <a class="keep-shopping" href="">Keep shopping</a>
-          </div>
-        </div>
-      </div>
-      <div class="menu-buttons">
-        <button href="#" class="login white-btn">Log in</button>
-        <button href="#" class="signup black-btn">Sign up</button>
-        <button href="#" class="language white-btn">
-          <img
-            src="./images/globe.svg"
-            alt="globe"
-            width="24px"
-            height="24px"
-          />
-        </button>
       </div>
     </div>
-    <div class="container">
-      <div class="banner">
-        <img
-          src="./images/banner.png"
-          alt="banner image"
-          class="benner-image"
-        />
-        <div class="previous-btn">
-          <img src="./images/previous.svg" width="16px" />
-        </div>
-        <div class="next-btn">
-          <img src="./images/next.svg" width="16px" />
-        </div>
-        <div class="banner-description">
-          <h1>What’s better than a sale?</h1>
+    <div class="search-box">
+      <form action="">
+        <button>
+          <img src="./images/search.svg" />
+        </button>
+        <input type="text" placeholder="Search for anything" />
+      </form>
+    </div>
+    <div class="business-popover">
+      <a href="#">Udemy Business</a>
+      <div class="popup-box">
+        <div class="transparent-bar"></div>
+        <div class="popup-box-content">
           <p>
-            With Personal Plan you get access to 8,000+ professional-skills
-            courses with one subscription.
+            Get your team access to over 22,000 top Udemy courses, anytime,
+            anywhere.
           </p>
-          <div class="banner-description-buttons">
-            <button class="black-btn" href="/">Get free trial</button>
-            <button class="white-btn" href="/">Learn more</button>
-          </div>
+          <button class="black-btn">Try Udemy Business</button>
         </div>
       </div>
-      <div class="main-part">
-        <h2>A broad selection of courses</h2>
-        <p class="main-part-description">
-          Choose from over 210,000 online video courses with new additions
-          published every month
+    </div>
+    <div class="teach-popover">
+      <a href="#">Teach on Udemy</a>
+      <div class="popup-box">
+        <div class="transparent-bar"></div>
+        <div class="popup-box-content">
+          <p>
+            Turn what you know into an opportunity and reach millions around
+            the world.
+          </p>
+          <button class="black-btn">Learn More</button>
+        </div>
+      </div>
+    </div>
+    <div class="buy-cart-popover">
+      <svg width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M2 2C1.44772 2 1 2.44772 1 3C1 3.55228 1.44772 4 2 4H2.47241C2.92336 4 3.31852 4.30182 3.43717 4.73688L3.85342 6.26312L6 14.1339V16C6 16.6935 6.23533 17.3321 6.63048 17.8402C6.23824 18.2816 6 18.863 6 19.5C6 20.8807 7.11929 22 8.5 22C9.88071 22 11 20.8807 11 19.5C11 19.3288 10.9828 19.1616 10.95 19H14.05C14.0172 19.1616 14 19.3288 14 19.5C14 20.8807 15.1193 22 16.5 22C17.8807 22 19 20.8807 19 19.5C19 19.1715 18.9366 18.8578 18.8215 18.5704C18.934 18.4086 19 18.212 19 18C19 17.4477 18.5523 17 18 17H16.5H9C8.44772 17 8 16.5523 8 16V15H18.236C19.1381 15 19.9285 14.3962 20.1657 13.5258L21.8007 7.52583C22.1473 6.25364 21.1896 5 19.871 5H5.58198L5.3667 4.21065C5.01074 2.90547 3.82526 2 2.47241 2H2ZM16.5 19C16.2239 19 16 19.2239 16 19.5C16 19.7761 16.2239 20 16.5 20C16.7761 20 17 19.7761 17 19.5C17 19.2239 16.7761 19 16.5 19ZM18.236 13H7.7638L6.12743 7H19.871L18.236 13ZM8.5 19C8.22386 19 8 19.2239 8 19.5C8 19.7761 8.22386 20 8.5 20C8.77614 20 9 19.7761 9 19.5C9 19.2239 8.77614 19 8.5 19Z"
+          fill="#000000" />
+      </svg>
+      <div class="popup-box">
+        <div class="transparent-bar"></div>
+        <div class="popup-box-content">
+          <div>Your cart is empty</div>
+          <a class="keep-shopping" href="">Keep shopping</a>
+        </div>
+      </div>
+    </div>
+    <div class="menu-buttons">
+      <button href="#" class="login white-btn">Log in</button>
+      <button href="#" class="signup black-btn">Sign up</button>
+      <button href="#" class="language white-btn">
+        <img src="./images/globe.svg" alt="globe" width="24px" height="24px" />
+      </button>
+    </div>
+  </div>
+  <div class="container">
+    <div class="banner">
+      <img src="./images/banner.png" alt="banner image" class="benner-image" />
+      <div class="previous-btn">
+        <img src="./images/previous.svg" width="16px" />
+      </div>
+      <div class="next-btn">
+        <img src="./images/next.svg" width="16px" />
+      </div>
+      <div class="banner-description">
+        <h1>What’s better than a sale?</h1>
+        <p>
+          With Personal Plan you get access to 8,000+ professional-skills
+          courses with one subscription.
         </p>
-        <div class="main-part-buttons">
-          <button>Python</button>
-          <button>Excel</button>
-          <button>Web Development</button>
-          <button>JavaScript</button>
-          <button>Data Science</button>
-          <button>Amazon AWS</button>
-          <button>Drawing</button>
-        </div>
-        <div class="main-part-box">
-          <h3>Expand your career opportunities with Python</h3>
-          <p>
-            Take one of Udemy’s range of Python courses and learn how to code
-            using this incredibly useful language. Its simple syntax and
-            readability makes Python perfect for Flask, Django, data science,
-            and machine learning. You’ll learn how to build everything from
-            games to sites to apps. Choose from a range of courses that will
-            appeal to...
-          </p>
-          <button class="white-btn">Explore Python</button>
-          <div class="courses-bar">
-            <div class="course-preview">
-              <img
-                class="course-preview-image"
-                src="./images/coursebar1.jpg"
-                alt="python class"
-              />
-              <h4 class="course-name">
-                The Complete Python Bootcamp From Zero to Hero in Python
-              </h4>
-              <p class="course-mentor">Jose Portilla</p>
-              <div class="rating-review">
-                <p class="course-rate">4.5</p>
-                <img
-                  src="./images/rating-stars.png"
-                  class="course-stars"
-                  alt="rating stars"
-                />
-                <p class="course-review">(10,493)</p>
-              </div>
-              <div class="course-price">
-                <p class="current-price">$9.99</p>
-                <p class="last-price">$79.49</p>
-              </div>
-
-              <div class="tooltip-box">
-                <h4>
-                  The Complete Python Bootcamp From Zero to Hero in Python
-                </h4>
-                <p class="update-date">updated <strong>March 2023</strong></p>
-                <p class="course-options">
-                  22 total hours . All Levels . Subtitles
-                </p>
-                <p class="course-summery">
-                  Learn Python like a Professional Start from the basics and go
-                  all the way to creating your own applications and games
-                </p>
-                <button>Add to cart</button>
-              </div>
-            </div>
-            <div class="course-preview">
-              <img
-                class="course-preview-image"
-                src="./images/coursebar2.jpg"
-                alt="python class"
-              />
-              <h4 class="course-name">
-                Automate the Boring Stuff with Python Programming
-              </h4>
-              <p class="course-mentor">Al Sweigart</p>
-              <div class="rating-review">
-                <p class="course-rate">4.7</p>
-                <img
-                  src="./images/rating-stars.png"
-                  class="course-stars"
-                  alt="rating stars"
-                />
-                <p class="course-review">(108,463)</p>
-              </div>
-              <div class="course-price">
-                <p class="current-price">$9.99</p>
-                <p class="last-price">$79.49</p>
-              </div>
-              <div class="tooltip-box">
-                <h4>Automate the Boring Stuff with Python Programming</h4>
-                <p class="update-date">
-                  updated <strong>February 2023</strong>
-                </p>
-                <p class="course-options">
-                  9.5 total hours . All Levels . Subtitles
-                </p>
-                <p class="course-summery">
-                  A practical programming course for office workers, academics,
-                  and administrators who want to improve their productivity.
-                </p>
-                <button>Add to cart</button>
-              </div>
-            </div>
-            <div class="course-preview">
-              <img
-                class="course-preview-image"
-                src="./images/coursebar3.jpg"
-                alt="python class"
-              />
-              <h4 class="course-name">
-                Machine Learning A-Z™: AI, Python & R + ChatGPT Bonus [2023]
-              </h4>
-              <p class="course-mentor">
-                Kirill Eremenko, Hadelin de Ponteves, SuperDataScience Team,
-                Ligency Team
-              </p>
-              <div class="rating-review">
-                <p class="course-rate">4.5</p>
-                <img
-                  src="./images/rating-stars.png"
-                  class="course-stars"
-                  alt="rating stars"
-                />
-                <p class="course-review">(9,123)</p>
-              </div>
-              <div class="course-price">
-                <p class="current-price">$9.99</p>
-                <p class="last-price">$79.49</p>
-              </div>
-              <div class="tooltip-box">
-                <h4>
-                  Machine Learning A-Z™: AI, Python & R + ChatGPT Bonus [2023]
-                </h4>
-                <p class="update-date">updated <strong>March 2023</strong></p>
-                <p class="course-options">
-                  42.5 total hours . All Levels . Subtitles
-                </p>
-                <p class="course-summery">
-                  Learn to create Machine Learning Algorithms in Python and R
-                  from two Data Science experts. Code templates included.
-                </p>
-                <button>Add to cart</button>
-              </div>
-            </div>
-            <div class="course-preview">
-              <img
-                class="course-preview-image"
-                src="./images/coursebar4.jpg"
-                alt="python class"
-              />
-              <h4 class="course-name">
-                100 Days of Code: The Complete Python Pro Bootcamp for 2023
-              </h4>
-              <p class="course-mentor">Dr. Angela Yu</p>
-              <div class="rating-review">
-                <p class="course-rate">4.5</p>
-                <img
-                  src="./images/rating-stars.png"
-                  class="course-stars"
-                  alt="rating stars"
-                />
-                <p class="course-review">(199,888)</p>
-              </div>
-              <div class="course-price">
-                <p class="current-price">$9.99</p>
-                <p class="last-price">$79.49</p>
-              </div>
-              <div class="tooltip-box">
-                <h4>
-                  100 Days of Code: The Complete Python Pro Bootcamp for 2023
-                </h4>
-                <p class="update-date">updated <strong>May 2023</strong></p>
-                <p class="course-options">
-                  58 total hours . All Levels . Subtitles
-                </p>
-                <p class="course-summery">
-                  Master Python by building 100 projects in 100 days. Learn data
-                  science, automation, build websites, games and apps!
-                </p>
-                <button>Add to cart</button>
-              </div>
-            </div>
-            <div class="course-preview">
-              <img
-                class="course-preview-image"
-                src="./images/coursebar5.jpg"
-                alt="python class"
-              />
-              <h4 class="course-name">
-                Python : Master Programming and Development with 15 Projects
-              </h4>
-              <p class="course-mentor">Dev Nirwal</p>
-              <div class="rating-review">
-                <p class="course-rate">4.5</p>
-                <img
-                  src="./images/rating-stars.png"
-                  class="course-stars"
-                  alt="rating stars"
-                />
-                <p class="course-review">(13,162)</p>
-              </div>
-              <div class="course-price">
-                <p class="current-price">$9.99</p>
-                <p class="last-price">$64.49</p>
-              </div>
-              <div class="tooltip-box">
-                <h4>
-                  Python : Master Programming and Development with 15 Projects
-                </h4>
-                <p class="update-date">updated <strong>August 2019</strong></p>
-                <p class="course-options">
-                  32 total hours . All Levels . Subtitles
-                </p>
-                <p class="course-summery">
-                  Python : Master Programming and Development with 15 Projects
-                </p>
-                <button>Add to cart</button>
-              </div>
-            </div>
-          </div>
+        <div class="banner-description-buttons">
+          <button class="black-btn" href="/">Get free trial</button>
+          <button class="white-btn" href="/">Learn more</button>
         </div>
       </div>
-      <div class="banner-quote">
-        <div class="frame">
-          <h3>How learners like you are achieving their goals</h3>
-          <div class="quote-card-container">
-            <div class="quote-card">
-              <img src="./images/quote.svg" alt="quote sign" width="16px" />
-              <p class="quote-p">
-                I am proud to say that after a few months of taking this
-                course...
-                <strong
-                  >I passed my exam and am now an AWS Certified Cloud
-                  Practitioner!</strong
-                >
-                This content was exactly what the CCP exam covered.
-              </p>
-              <div class="speaker">
-                <div class="speaker-thumbnail">WA</div>
-                <div class="speaker-name">Will A</div>
-              </div>
-              <div class="divider"></div>
-              <div class="quote-card-video">
-                <a href="/" class="quote-video-link">
-                  <img src="./images/play-button.svg" alt="play button" />
-                  <p class="quote-video-description">
-                    [NEW] Ultimate AWS Certified Cloud Practitioner - 2022
-                  </p>
-                </a>
-              </div>
-            </div>
-            <div class="quote-card">
-              <img src="./images/quote.svg" alt="quote sign" width="16px" />
-              <p class="quote-p">
-                This course helped me
-                <strong
-                  >freshen up on my product manager skills and land a job at
-                  Facebook!</strong
-                >
-                Thanks guys :)
-              </p>
-              <div class="speaker">
-                <div class="speaker-thumbnail">RF</div>
-                <div class="speaker-name">Ron F</div>
-              </div>
-              <div class="divider"></div>
-              <div class="quote-card-video">
-                <a href="/" class="quote-video-link">
-                  <img src="./images/play-button.svg" alt="play button" />
-                  <p class="quote-video-description">
-                    Become a Product Manager | Learn the Skills & Get the Job
-                  </p>
-                </a>
-              </div>
-            </div>
-            <div class="quote-card">
-              <img src="./images/quote.svg" alt="quote sign" width="16px" />
-              <p class="quote-p">
-                One of the best courses on management and leadership I have come
-                across so far. The advice is practical, and examples highly
-                relatable.
-                <strong>Would help anyone become a better manager.</strong>
-              </p>
-              <div class="speaker">
-                <div class="speaker-thumbnail">PW</div>
-                <div class="speaker-name">Phillip W</div>
-              </div>
-              <div class="divider"></div>
-              <div class="quote-card-video">
-                <a href="/" class="quote-video-link">
-                  <img src="./images/play-button.svg" alt="play button" />
-                  <p class="quote-video-description">
-                    Leadership: Practical Leadership Skills
-                  </p>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+    </div>
+    <div class="main-part">
+      <h2>A broad selection of courses</h2>
+      <p class="main-part-description">
+        Choose from over 210,000 online video courses with new additions
+        published every month
+      </p>
+      <div class="main-part-buttons">
+        <button>Python</button>
+        <button>Excel</button>
+        <button>Web Development</button>
+        <button>JavaScript</button>
+        <button>Data Science</button>
+        <button>Amazon AWS</button>
+        <button>Drawing</button>
       </div>
-      <div class="students-review-course-bar main-part">
-        <h3>Students are reviewing</h3>
+      <div class="main-part-box">
+        <h3>Expand your career opportunities with Python</h3>
+        <p>
+          Take one of Udemy’s range of Python courses and learn how to code
+          using this incredibly useful language. Its simple syntax and
+          readability makes Python perfect for Flask, Django, data science,
+          and machine learning. You’ll learn how to build everything from
+          games to sites to apps. Choose from a range of courses that will
+          appeal to...
+        </p>
+        <button class="white-btn">Explore Python</button>
         <div class="courses-bar">
           <div class="course-preview">
-            <img
-              class="course-preview-image"
-              src="./images/review1.jpg"
-              alt="python class"
-            />
+            <img class="course-preview-image" src="./images/coursebar1.jpg" alt="python class" />
             <h4 class="course-name">
-              The Complete 2023 Web Development Bootcamp
+              The Complete Python Bootcamp From Zero to Hero in Python
             </h4>
-            <p class="course-mentor">Dr. Angela Yu</p>
+            <p class="course-mentor">Jose Portilla</p>
             <div class="rating-review">
               <p class="course-rate">4.5</p>
-              <img
-                src="./images/rating-stars.png"
-                class="course-stars"
-                alt="rating stars"
-              />
-              <p class="course-review">(287,493)</p>
+              <img src="./images/rating-stars.png" class="course-stars" alt="rating stars" />
+              <p class="course-review">(10,493)</p>
             </div>
             <div class="course-price">
               <p class="current-price">$9.99</p>
               <p class="last-price">$79.49</p>
             </div>
+
+            <div class="tooltip-box">
+              <h4>
+                The Complete Python Bootcamp From Zero to Hero in Python
+              </h4>
+              <p class="update-date">updated <strong>March 2023</strong></p>
+              <p class="course-options">
+                22 total hours . All Levels . Subtitles
+              </p>
+              <p class="course-summery">
+                Learn Python like a Professional Start from the basics and go
+                all the way to creating your own applications and games
+              </p>
+              <button>Add to cart</button>
+            </div>
           </div>
           <div class="course-preview">
-            <img
-              class="course-preview-image"
-              src="./images/coursebar4.jpg"
-              alt="python class"
-            />
+            <img class="course-preview-image" src="./images/coursebar2.jpg" alt="python class" />
+            <h4 class="course-name">
+              Automate the Boring Stuff with Python Programming
+            </h4>
+            <p class="course-mentor">Al Sweigart</p>
+            <div class="rating-review">
+              <p class="course-rate">4.7</p>
+              <img src="./images/rating-stars.png" class="course-stars" alt="rating stars" />
+              <p class="course-review">(108,463)</p>
+            </div>
+            <div class="course-price">
+              <p class="current-price">$9.99</p>
+              <p class="last-price">$79.49</p>
+            </div>
+            <div class="tooltip-box">
+              <h4>Automate the Boring Stuff with Python Programming</h4>
+              <p class="update-date">
+                updated <strong>February 2023</strong>
+              </p>
+              <p class="course-options">
+                9.5 total hours . All Levels . Subtitles
+              </p>
+              <p class="course-summery">
+                A practical programming course for office workers, academics,
+                and administrators who want to improve their productivity.
+              </p>
+              <button>Add to cart</button>
+            </div>
+          </div>
+          <div class="course-preview">
+            <img class="course-preview-image" src="./images/coursebar3.jpg" alt="python class" />
+            <h4 class="course-name">
+              Machine Learning A-Z™: AI, Python & R + ChatGPT Bonus [2023]
+            </h4>
+            <p class="course-mentor">
+              Kirill Eremenko, Hadelin de Ponteves, SuperDataScience Team,
+              Ligency Team
+            </p>
+            <div class="rating-review">
+              <p class="course-rate">4.5</p>
+              <img src="./images/rating-stars.png" class="course-stars" alt="rating stars" />
+              <p class="course-review">(9,123)</p>
+            </div>
+            <div class="course-price">
+              <p class="current-price">$9.99</p>
+              <p class="last-price">$79.49</p>
+            </div>
+            <div class="tooltip-box">
+              <h4>
+                Machine Learning A-Z™: AI, Python & R + ChatGPT Bonus [2023]
+              </h4>
+              <p class="update-date">updated <strong>March 2023</strong></p>
+              <p class="course-options">
+                42.5 total hours . All Levels . Subtitles
+              </p>
+              <p class="course-summery">
+                Learn to create Machine Learning Algorithms in Python and R
+                from two Data Science experts. Code templates included.
+              </p>
+              <button>Add to cart</button>
+            </div>
+          </div>
+          <div class="course-preview">
+            <img class="course-preview-image" src="./images/coursebar4.jpg" alt="python class" />
             <h4 class="course-name">
               100 Days of Code: The Complete Python Pro Bootcamp for 2023
             </h4>
             <p class="course-mentor">Dr. Angela Yu</p>
             <div class="rating-review">
-              <p class="course-rate">4.8</p>
-              <img
-                src="./images/rating-stars.png"
-                class="course-stars"
-                alt="rating stars"
-              />
-              <p class="course-review">(199,893)</p>
+              <p class="course-rate">4.5</p>
+              <img src="./images/rating-stars.png" class="course-stars" alt="rating stars" />
+              <p class="course-review">(199,888)</p>
             </div>
             <div class="course-price">
               <p class="current-price">$9.99</p>
               <p class="last-price">$79.49</p>
+            </div>
+            <div class="tooltip-box">
+              <h4>
+                100 Days of Code: The Complete Python Pro Bootcamp for 2023
+              </h4>
+              <p class="update-date">updated <strong>May 2023</strong></p>
+              <p class="course-options">
+                58 total hours . All Levels . Subtitles
+              </p>
+              <p class="course-summery">
+                Master Python by building 100 projects in 100 days. Learn data
+                science, automation, build websites, games and apps!
+              </p>
+              <button>Add to cart</button>
             </div>
           </div>
           <div class="course-preview">
-            <img
-              class="course-preview-image"
-              src="./images/review3.jpg"
-              alt="python class"
-            />
+            <img class="course-preview-image" src="./images/coursebar5.jpg" alt="python class" />
             <h4 class="course-name">
-              Ultimate AWS Certified Solutions Architect Associate SAA-C03
+              Python : Master Programming and Development with 15 Projects
             </h4>
-            <p class="course-mentor">
-              Stephane Maarek | AWS Certified Cloud Practitioner,Solutions
-              Architect,Developer
-            </p>
+            <p class="course-mentor">Dev Nirwal</p>
             <div class="rating-review">
-              <p class="course-rate">4.7</p>
-              <img
-                src="./images/rating-stars.png"
-                class="course-stars"
-                alt="rating stars"
-              />
-              <p class="course-review">(180,493)</p>
+              <p class="course-rate">4.5</p>
+              <img src="./images/rating-stars.png" class="course-stars" alt="rating stars" />
+              <p class="course-review">(13,162)</p>
             </div>
             <div class="course-price">
               <p class="current-price">$9.99</p>
-              <p class="last-price">$79.49</p>
+              <p class="last-price">$64.49</p>
             </div>
-          </div>
-          <div class="course-preview">
-            <img
-              class="course-preview-image"
-              src="./images/review3.jpg"
-              alt="python class"
-            />
-            <h4 class="course-name">
-              [NEW] Ultimate AWS Certified Cloud Practitioner - 2023
-            </h4>
-            <p class="course-mentor">
-              Stephane Maarek | AWS Certified Cloud Practitioner,Solutions
-              Architect,Developer
-            </p>
-            <div class="rating-review">
-              <p class="course-rate">4.7</p>
-              <img
-                src="./images/rating-stars.png"
-                class="course-stars"
-                alt="rating stars"
-              />
-              <p class="course-review">(146,921)</p>
-            </div>
-            <div class="course-price">
-              <p class="current-price">$9.99</p>
-              <p class="last-price">$79.49</p>
-            </div>
-          </div>
-          <div class="course-preview">
-            <img
-              class="course-preview-image"
-              src="./images/review3.jpg"
-              alt="python class"
-            />
-            <h4 class="course-name">
-              React - The Complete Guide (incl Hooks, React Router, Redux)
-            </h4>
-            <p class="course-mentor">
-              Academind by Maximilian Schwarzmüller, Maximilian Schwarzmüller
-            </p>
-            <div class="rating-review">
-              <p class="course-rate">4.7</p>
-              <img
-                src="./images/rating-stars.png"
-                class="course-stars"
-                alt="rating stars"
-              />
-              <p class="course-review">(146,921)</p>
-            </div>
-            <div class="course-price">
-              <p class="current-price">$9.99</p>
-              <p class="last-price">$79.49</p>
+            <div class="tooltip-box">
+              <h4>
+                Python : Master Programming and Development with 15 Projects
+              </h4>
+              <p class="update-date">updated <strong>August 2019</strong></p>
+              <p class="course-options">
+                32 total hours . All Levels . Subtitles
+              </p>
+              <p class="course-summery">
+                Python : Master Programming and Development with 15 Projects
+              </p>
+              <button>Add to cart</button>
             </div>
           </div>
         </div>
       </div>
-      <div class="top-categories main-part">
-        <h3>Top categories</h3>
-        <div class="top-categories-card">
-          <div class="category-card">
-            <a href="#">
-              <img
-                src="./images/lohp-category-design-v2.jpg"
-                alt="design category"
-              />
-            </a>
-            <p>Design</p>
+    </div>
+    <div class="banner-quote">
+      <div class="frame">
+        <h3>How learners like you are achieving their goals</h3>
+        <div class="quote-card-container">
+          <div class="quote-card">
+            <img src="./images/quote.svg" alt="quote sign" width="16px" />
+            <p class="quote-p">
+              I am proud to say that after a few months of taking this
+              course...
+              <strong>I passed my exam and am now an AWS Certified Cloud
+                Practitioner!</strong>
+              This content was exactly what the CCP exam covered.
+            </p>
+            <div class="speaker">
+              <div class="speaker-thumbnail">WA</div>
+              <div class="speaker-name">Will A</div>
+            </div>
+            <div class="divider"></div>
+            <div class="quote-card-video">
+              <a href="/" class="quote-video-link">
+                <img src="./images/play-button.svg" alt="play button" />
+                <p class="quote-video-description">
+                  [NEW] Ultimate AWS Certified Cloud Practitioner - 2022
+                </p>
+              </a>
+            </div>
           </div>
-          <div class="category-card">
-            <a href="#">
-              <img
-                src="./images/lohp-category-development-v2.jpg"
-                alt="Development category"
-              />
-            </a>
-            <p>Development</p>
+          <div class="quote-card">
+            <img src="./images/quote.svg" alt="quote sign" width="16px" />
+            <p class="quote-p">
+              This course helped me
+              <strong>freshen up on my product manager skills and land a job at
+                Facebook!</strong>
+              Thanks guys :)
+            </p>
+            <div class="speaker">
+              <div class="speaker-thumbnail">RF</div>
+              <div class="speaker-name">Ron F</div>
+            </div>
+            <div class="divider"></div>
+            <div class="quote-card-video">
+              <a href="/" class="quote-video-link">
+                <img src="./images/play-button.svg" alt="play button" />
+                <p class="quote-video-description">
+                  Become a Product Manager | Learn the Skills & Get the Job
+                </p>
+              </a>
+            </div>
           </div>
-          <div class="category-card">
-            <a href="#">
-              <img
-                src="./images/lohp-category-marketing-v2.jpg"
-                alt="Marketing category"
-              />
-            </a>
-            <p>Marketing</p>
-          </div>
-          <div class="category-card">
-            <a href="#">
-              <img
-                src="./images/lohp-category-it-and-software-v2.jpg"
-                alt="IT and software category"
-              />
-            </a>
-            <p>IT and software</p>
-          </div>
-          <div class="category-card">
-            <a href="#">
-              <img
-                src="./images/lohp-category-personal-development-v2.jpg"
-                alt="Personal Development category"
-              />
-            </a>
-            <p>Personal Development</p>
-          </div>
-          <div class="category-card">
-            <a href="#">
-              <img
-                src="./images/lohp-category-business-v2.jpg"
-                alt="Business category"
-              />
-            </a>
-            <p>Business</p>
-          </div>
-          <div class="category-card">
-            <a href="#">
-              <img
-                src="./images/lohp-category-photography-v2.jpg"
-                alt="Photography category"
-              />
-            </a>
-            <p>Photography</p>
-          </div>
-          <div class="category-card">
-            <a href="#">
-              <img
-                src="./images/lohp-category-music-v2.jpg"
-                alt="music category"
-              />
-            </a>
-            <p>Music</p>
+          <div class="quote-card">
+            <img src="./images/quote.svg" alt="quote sign" width="16px" />
+            <p class="quote-p">
+              One of the best courses on management and leadership I have come
+              across so far. The advice is practical, and examples highly
+              relatable.
+              <strong>Would help anyone become a better manager.</strong>
+            </p>
+            <div class="speaker">
+              <div class="speaker-thumbnail">PW</div>
+              <div class="speaker-name">Phillip W</div>
+            </div>
+            <div class="divider"></div>
+            <div class="quote-card-video">
+              <a href="/" class="quote-video-link">
+                <img src="./images/play-button.svg" alt="play button" />
+                <p class="quote-video-description">
+                  Leadership: Practical Leadership Skills
+                </p>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-      <div class="instructor main-part">
-        <img src="./images/instructor.png" alt="instructor" />
-        <div class="instructor-decription">
-          <h3>Become an instructor</h3>
-          <p>
-            Instructors from around the world teach millions of students on
-            Udemy. We provide the tools and skills to teach what you love.
+    </div>
+    <div class="students-review-course-bar main-part">
+      <h3>Students are reviewing</h3>
+      <div class="courses-bar">
+        <div class="course-preview">
+          <img class="course-preview-image" src="./images/review1.jpg" alt="python class" />
+          <h4 class="course-name">
+            The Complete 2023 Web Development Bootcamp
+          </h4>
+          <p class="course-mentor">Dr. Angela Yu</p>
+          <div class="rating-review">
+            <p class="course-rate">4.5</p>
+            <img src="./images/rating-stars.png" class="course-stars" alt="rating stars" />
+            <p class="course-review">(287,493)</p>
+          </div>
+          <div class="course-price">
+            <p class="current-price">$9.99</p>
+            <p class="last-price">$79.49</p>
+          </div>
+        </div>
+        <div class="course-preview">
+          <img class="course-preview-image" src="./images/coursebar4.jpg" alt="python class" />
+          <h4 class="course-name">
+            100 Days of Code: The Complete Python Pro Bootcamp for 2023
+          </h4>
+          <p class="course-mentor">Dr. Angela Yu</p>
+          <div class="rating-review">
+            <p class="course-rate">4.8</p>
+            <img src="./images/rating-stars.png" class="course-stars" alt="rating stars" />
+            <p class="course-review">(199,893)</p>
+          </div>
+          <div class="course-price">
+            <p class="current-price">$9.99</p>
+            <p class="last-price">$79.49</p>
+          </div>
+        </div>
+        <div class="course-preview">
+          <img class="course-preview-image" src="./images/review3.jpg" alt="python class" />
+          <h4 class="course-name">
+            Ultimate AWS Certified Solutions Architect Associate SAA-C03
+          </h4>
+          <p class="course-mentor">
+            Stephane Maarek | AWS Certified Cloud Practitioner,Solutions
+            Architect,Developer
           </p>
-          <button class="black-btn">Start teaching today</button>
+          <div class="rating-review">
+            <p class="course-rate">4.7</p>
+            <img src="./images/rating-stars.png" class="course-stars" alt="rating stars" />
+            <p class="course-review">(180,493)</p>
+          </div>
+          <div class="course-price">
+            <p class="current-price">$9.99</p>
+            <p class="last-price">$79.49</p>
+          </div>
+        </div>
+        <div class="course-preview">
+          <img class="course-preview-image" src="./images/review3.jpg" alt="python class" />
+          <h4 class="course-name">
+            [NEW] Ultimate AWS Certified Cloud Practitioner - 2023
+          </h4>
+          <p class="course-mentor">
+            Stephane Maarek | AWS Certified Cloud Practitioner,Solutions
+            Architect,Developer
+          </p>
+          <div class="rating-review">
+            <p class="course-rate">4.7</p>
+            <img src="./images/rating-stars.png" class="course-stars" alt="rating stars" />
+            <p class="course-review">(146,921)</p>
+          </div>
+          <div class="course-price">
+            <p class="current-price">$9.99</p>
+            <p class="last-price">$79.49</p>
+          </div>
+        </div>
+        <div class="course-preview">
+          <img class="course-preview-image" src="./images/review3.jpg" alt="python class" />
+          <h4 class="course-name">
+            React - The Complete Guide (incl Hooks, React Router, Redux)
+          </h4>
+          <p class="course-mentor">
+            Academind by Maximilian Schwarzmüller, Maximilian Schwarzmüller
+          </p>
+          <div class="rating-review">
+            <p class="course-rate">4.7</p>
+            <img src="./images/rating-stars.png" class="course-stars" alt="rating stars" />
+            <p class="course-review">(146,921)</p>
+          </div>
+          <div class="course-price">
+            <p class="current-price">$9.99</p>
+            <p class="last-price">$79.49</p>
+          </div>
         </div>
       </div>
     </div>
-    <div class="footer">
-      <div class="link-and-language">
-        <div class="links-part1">
-          <ul>
-            <li><a href="/">Udemy Business</a></li>
-            <li><a href="/">Teach on Udemy</a></li>
-            <li><a href="/">Get the app</a></li>
-            <li><a href="/">About us</a></li>
-            <li><a href="/">Contact us</a></li>
-          </ul>
+    <div class="top-categories main-part">
+      <h3>Top categories</h3>
+      <div class="top-categories-card">
+        <div class="category-card">
+          <a href="#">
+            <img src="./images/lohp-category-design-v2.jpg" alt="design category" />
+          </a>
+          <p>Design</p>
         </div>
-        <div class="links-part-2">
-          <ul>
-            <li><a href="">Careers</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Help and Support</a></li>
-            <li><a href="">Affiliate</a></li>
-            <li><a href="">Investors</a></li>
-            <li><a href="">Impressum Kontakt</a></li>
-          </ul>
+        <div class="category-card">
+          <a href="#">
+            <img src="./images/lohp-category-development-v2.jpg" alt="Development category" />
+          </a>
+          <p>Development</p>
         </div>
-        <div class="links-part-3">
-          <ul>
-            <li><a href="">Terms</a></li>
-            <li><a href="">Privacy policy</a></li>
-            <li><a href=""> Cookie setting</a></li>
-            <li><a href=""> Sitemap </a></li>
-            <li><a href=""> Accessibility statement</a></li>
-          </ul>
+        <div class="category-card">
+          <a href="#">
+            <img src="./images/lohp-category-marketing-v2.jpg" alt="Marketing category" />
+          </a>
+          <p>Marketing</p>
         </div>
-        <div class="footer-language">
-          <button class="black-btn language-select">
-            <img src="./images/white-globe.svg" width="20px" />
-            English
-          </button>
+        <div class="category-card">
+          <a href="#">
+            <img src="./images/lohp-category-it-and-software-v2.jpg" alt="IT and software category" />
+          </a>
+          <p>IT and software</p>
         </div>
-      </div>
-      <div class="logo-copyright">
-        <img
-          class="footer-logo"
-          src="./images/logo-udemy-white.svg"
-          alt="logo"
-        />
-        <p class="copyright">© 2023 Udemy, Inc.</p>
+        <div class="category-card">
+          <a href="#">
+            <img src="./images/lohp-category-personal-development-v2.jpg" alt="Personal Development category" />
+          </a>
+          <p>Personal Development</p>
+        </div>
+        <div class="category-card">
+          <a href="#">
+            <img src="./images/lohp-category-business-v2.jpg" alt="Business category" />
+          </a>
+          <p>Business</p>
+        </div>
+        <div class="category-card">
+          <a href="#">
+            <img src="./images/lohp-category-photography-v2.jpg" alt="Photography category" />
+          </a>
+          <p>Photography</p>
+        </div>
+        <div class="category-card">
+          <a href="#">
+            <img src="./images/lohp-category-music-v2.jpg" alt="music category" />
+          </a>
+          <p>Music</p>
+        </div>
       </div>
     </div>
-  </body>
+    <div class="instructor main-part">
+      <img src="./images/instructor.png" alt="instructor" />
+      <div class="instructor-decription">
+        <h3>Become an instructor</h3>
+        <p>
+          Instructors from around the world teach millions of students on
+          Udemy. We provide the tools and skills to teach what you love.
+        </p>
+        <button class="black-btn">Start teaching today</button>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="link-and-language">
+      <div class="links-part1">
+        <ul>
+          <li><a href="/">Udemy Business</a></li>
+          <li><a href="/">Teach on Udemy</a></li>
+          <li><a href="/">Get the app</a></li>
+          <li><a href="/">About us</a></li>
+          <li><a href="/">Contact us</a></li>
+        </ul>
+      </div>
+      <div class="links-part-2">
+        <ul>
+          <li><a href="">Careers</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Help and Support</a></li>
+          <li><a href="">Affiliate</a></li>
+          <li><a href="">Investors</a></li>
+          <li><a href="">Impressum Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="links-part-3">
+        <ul>
+          <li><a href="">Terms</a></li>
+          <li><a href="">Privacy policy</a></li>
+          <li><a href=""> Cookie setting</a></li>
+          <li><a href=""> Sitemap </a></li>
+          <li><a href=""> Accessibility statement</a></li>
+        </ul>
+      </div>
+      <div class="footer-language">
+        <button class="black-btn language-select">
+          <img src="./images/white-globe.svg" width="20px" />
+          English
+        </button>
+      </div>
+    </div>
+    <div class="logo-copyright">
+      <img class="footer-logo" src="./images/logo-udemy-white.svg" alt="logo" />
+      <p class="copyright">© 2023 Udemy, Inc.</p>
+    </div>
+    <div class="developer">This is a parody website created with HTML and CSS Flexbox by <a
+        href="https://vidakhalili.ir" target="_blank">Vida
+        Khalili</a>. It is not affiliated with or endorsed by any real
+      company or organization.</div>
+  </footer>
+</body>
+
 </html>

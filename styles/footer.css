@@ -52,3 +52,12 @@
 .copyright {
   font-size: 12px;
 }
+
+.developer {
+  text-align: center;
+}
+
+.developer a {
+  font-weight: bold;
+  color: #199fa3;
+}
